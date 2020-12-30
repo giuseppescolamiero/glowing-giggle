@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenitore_generale{
+  padding:8vh;
+}
+body {
+  background-color: lightgrey;
+}
+.add-on {
+  color: rgb(0,127,255);
+}
+#più {
+  font-size: 28px;
+}
+div > a{
+  color: rgb(0,127,255);
+  text-decoration: none;
+  font-size: 18px;
+}
+.titolo {
+  font-size: 40px;
+  font-family: 'Big Shoulders Inline Text', cursive;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin:50px 0;
+}
+.titolo > a {
+  float:right;
+}
+.card{
+  width: calc(100% / 5 );
+  float: left;
+  margin-top: 10px;
+}
+.album{
+  background-image: url("fotoA.jpg");
+  background-size: cover;
+  width: 15vw;
+  height: 18vh;
+}
+.titolo-album{
+  font-size: 18px;
+  margin-top:10px;
+}
+.numero{
+  color: grey;
+}
+#fotoB{
+  background-image: url("fotoB.jpg");
+}
+#fotoC{
+  background-image: url("fotoC.jpg");
+}
+#fotoD{
+  background-image: url("fotoD.jpeg");
+}
+#fotoE{
+  background-image: url("fotoE.jpg");
+}
+#fotoF{
+  background-image: url("fotoF.jpg");
+}
+#fotoH{
+  background-image: url("fotoH.jpg");
+}
+#fotoG{
+  background-image:url("fotoG.jpg");
+
+}
+.raccolta{
+  width: 96vw;
+  
+}
